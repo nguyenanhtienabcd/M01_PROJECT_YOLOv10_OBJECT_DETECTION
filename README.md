@@ -84,7 +84,9 @@ annotated_img = results[0].plot()
 
 cv2_imshow(annotated_img)
 ```
-![train](figures/5.png)<br> 
+![train](figures/5.png)<br>
+
+
 
 
 

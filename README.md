@@ -23,7 +23,7 @@ or you can do download to your **colab** by using the following command
 !wget https://github.com/THU-MIG/yolov10/releases/download/v1.1/yolov10n.pt
 ```  
 To check download successfully or not?  
-![check](figures/2.png)<br>  
+![check](figures/2.PNG)<br>  
 
 **Step 5:** Download Helmet Safety Detection dataset  
 Using the codes below to download file and unzip them to a new directory
@@ -54,8 +54,8 @@ model.train(
     imgsz=IMG_SIZE,
     batch=BATCH_SIZE)
 ```
-![train](figures/3.png)<br> 
-![train](figures/4.png)<br>   
+![train](figures/3.PNG)<br> 
+![train](figures/4.PNG)<br>   
 
 **Step 7:** Evaluate the trained model  
 Using the codes below
@@ -84,7 +84,7 @@ annotated_img = results[0].plot()
 
 cv2_imshow(annotated_img)
 ```
-![train](figures/5.png)<br>
+![train](figures/5.PNG)<br>
 
 
 
